@@ -3,6 +3,9 @@
   epel_rpm: "http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm"
   ol6_repo_file: public-yum-ol6.repo
   repo_dir: /etc/yum.repos.d/
+  ol6_rmp_gpg_key: RPM-GPG-KEY-oracle-ol6
+  rpm_gpg_keys_dir: /etc/pki/rpm-gpg/
+
 #  default_user: ansible
   install_os_packages: true
   configure_epel_repo: true
